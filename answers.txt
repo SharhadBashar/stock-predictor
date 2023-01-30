@@ -1,0 +1,23 @@
+How does the Prophet Algorithm differ from an LSTM?
+Why does an LSTM have poor performance against ARIMA and Profit for Time Series?
+
+The LSTM prediction is based on a set of last values, we are therefore less prone to variance due to seasonality and already consider the current trend. In contrast to that, the prophet model is doing a good job modeling as an additive system and finding out and displaying seasonalities.
+
+ARIMA model produced lower error values than LSTM model in monthly and weekly series which indicated that ARIMA was more successful than LSTM for monthly and weekly forecasting. While the error values produced by LSTM were lower than those by ARIMA for daily forecasting in rolling forecasting model.
+
+
+What is exponential smoothing and why is it used in Time Series Forecasting?
+
+Exponential smoothing is a broadly accurate forecasting method for short-term forecasts. The technique assigns larger weights to more recent observations while assigning exponentially decreasing weights as the observations get increasingly distant. This method produces slightly unreliable long-term forecasts.
+
+
+What is stationarity? What is seasonality? Why Is Stationarity Important in Time Series Forecasting?
+
+A stationary time series is one whose properties do not depend on the time at which the series is observed. Thus, time series with trends, or with seasonality, are not stationary — the trend and seasonality will affect the value of the time series at different times.
+
+
+How is seasonality different from cyclicality? 
+
+Seasonal effects are different from cyclical effects, as seasonal cycles are observed within one calendar year, while cyclical effects, such as boosted sales due to low unemployment rates, can span time periods shorter or longer than one calendar year.
+
+___ is predictable, whereas ___ is not.
