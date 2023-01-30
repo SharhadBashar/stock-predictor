@@ -20,4 +20,4 @@ How is seasonality different from cyclicality?
 
 Seasonal effects are different from cyclical effects, as seasonal cycles are observed within one calendar year, while cyclical effects, such as boosted sales due to low unemployment rates, can span time periods shorter or longer than one calendar year.
 
-___ is predictable, whereas ___ is not.
+Seasonality_ is predictable, whereas Cyclicality is not
