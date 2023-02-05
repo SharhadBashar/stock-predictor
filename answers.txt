@@ -1,3 +1,4 @@
+WEEK 12
 How does the Prophet Algorithm differ from an LSTM?
 Why does an LSTM have poor performance against ARIMA and Profit for Time Series?
 
@@ -21,3 +22,24 @@ How is seasonality different from cyclicality?
 Seasonal effects are different from cyclical effects, as seasonal cycles are observed within one calendar year, while cyclical effects, such as boosted sales due to low unemployment rates, can span time periods shorter or longer than one calendar year.
 
 Seasonality_ is predictable, whereas Cyclicality is not
+
+
+
+WEEK 13
+What does it mean to create a Docker image and why do we use Docker images?
+A Docker image is a read-only template that contains a set of instructions for creating a container that can run on the Docker platform. It provides a convenient way to package up applications and preconfigured server environments, which you can use for your own private use or share publicly with other Docker users.
+
+Please explain what is the difference from a Container vs a Virtual Machine?
+Containers and virtual machines are very similar resource virtualization technologies. Virtualization is the process in which a system singular resource like RAM, CPU, Disk, or Networking can be ‘virtualized’ and represented as multiple resources. The key differentiator between containers and virtual machines is that virtual machines virtualize an entire machine down to the hardware layers and containers only virtualize software layers above the operating system level.
+
+What are 5 examples of container orchestration tools (please list tools)?
+Kubernetes
+Docker Swarm 
+Redhat OpenShift
+Apache Mesos
+Nomad by HashiCorp
+
+How does a Docker image differ from a Docker container?
+The key difference between a Docker image vs a container is  that a Docker image is a template that defines how a container will be realized. A Docker container is a runtime instance of a Docker image.
+
+
